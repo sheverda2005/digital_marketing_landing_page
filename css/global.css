@@ -1,0 +1,23 @@
+body {
+  color: #74787C;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1250px) {
+  .container {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    margin: 0 10px;
+  }
+}
